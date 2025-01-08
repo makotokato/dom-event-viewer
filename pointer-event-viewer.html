@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Pointer Event Viewer</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="output-table.js" ></script>
+<script type="text/javascript" src="options.js" ></script>
+<script type="text/javascript" src="shared.js" ></script>
+<script type="text/javascript" src="pointer-event-viewer-shared.js" ></script>
+<script type="text/javascript" src="pointer-event-viewer-core.js" ></script>
+<style title="inject"></style>
+<link rel="stylesheet" type="text/css" href="pointer-event-viewer.css" />
+<link rel="stylesheet" type="text/css" href="shared.css" />
+
+</head>
+
+<body id="body">
+
+<a class="main_link" href="index.html">DOM Event Viewers</a>
+
+<h1>Pointer Event Viewer</h1>
+
+<p>UserAgent: <span id="useragent"></span></p>
+
+<div id="div_a"> A <div id="div_b"> B <div id="div_c"> C </div> </div> </div>
+
+<p>
+<input id="resetTable" type="button" onclick="resetTable();return false" value="Clear Table"/>
+<a id="optionsToggle" href="javascript:toggleOptions()">Show Options</a>
+</p>
+
+<div id="options"></div>
+
+<table id="output"></table>
+
+<script language="javascript">
+init();
+</script>
+
+</body>
+</html>
