@@ -92,7 +92,7 @@ var _pointer_table_info = [
 		["clientX", "mouseevent", "text"],
 		["clientY", "mouseevent", "text"],
 	], {
-		'checked': true,
+		'checked': false,
 		'header-background': "#ffffc0"
 	}],
 
@@ -101,7 +101,7 @@ var _pointer_table_info = [
 		["movementX", "plock", "text"],
 		["movementY", "plock", "text"],
 	], {
-		'checked': true,
+		'checked': false,
 		'header-background': "#e0a0e0"
 	}],
 
@@ -114,7 +114,7 @@ var _pointer_table_info = [
 		["x", "cssom", "text"],
 		["y", "cssom", "text"],
 	], {
-		'checked': true,
+		'checked': false,
 		'header-background': "#c0f0c0"
 	}],
 
@@ -123,7 +123,7 @@ var _pointer_table_info = [
 		["button", "buttons", "text"],
 		["buttons", "buttons", "text"],
 	], {
-		'checked': true,
+		'checked': false,
 		'header-background': "#e0e0e0"
 	}],
 ];
