@@ -71,7 +71,7 @@ var _pointer_table_info = [
     ["width", "pointerevent", "text"],
     ["height", "pointerevent", "text"],
     ["pressure", "pointerevent", "text"],
-    ["persistentDeviceId", "pointerevent", "text"],
+    ["tangentialPressure", "pointerevent", "text"],
     ["tiltX", "pointerevent", "text"],
     ["tiltY", "pointerevent", "text"],
     ["twist", "pointerevent", "text"],
